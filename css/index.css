@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+ 
+ 
+ 
+ header{
+    height: 100vh;
+   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/people-graduating-with-diplomas-close-up.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+ nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  z-index: 1;
+ }
+ .iteletique{
+  color: #fff;
+  font-size: 28px;
+ }
+ .iq{
+  color: rgb(253, 145, 5);
+ }
+
+ nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+ }
+
+ nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+ nav ul li a:hover{
+  color: rgb(253, 145, 5);
+  transition: .3s;
+ }
+ nav button{
+  border: 2px solid #fff;
+  background: transparent;
+  color: rgb(253, 145, 5);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 30px;
+  transition: .4s;
+  border-radius: 3px;
+ }
+ nav button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+ }
+
+ 
+ 
+ .text a:hover{
+  letter-spacing: 2px;
+  transition: 0.5s;
+  color: rgb(37, 37, 107);
+  background-color: rgb(253, 145, 5);
+
+ }
+
+ .text h4{
+   text-transform: uppercase;
+   font-weight: 200;
+   color: #fff;
+
+ }
+ 
+
+ 
+
+ .prospectus h2{
+   font-size: 38px;
+   text-transform: uppercase;
+   font-weight: 300;
+   
+
+ }
+
+ .prospectus a{
+   color: rgb(253, 145, 5);
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+   border: 1px solid black;
+   padding: 10px;
+   
+ }
+ .pro{
+  margin-top: 100px;
+ }
+
+ .prospectus a:hover{
+   letter-spacing: 2px;
+   transition: 0.5s;
+   
+ }
+
+ 
+
+ .divCaroussel{
+   height: 100%;
+   padding: 0%;
+  
+ }
+
+ .carousel-inner{
+   height: 100%;
+ }
+
+ .carousel-item{
+   height: 100%;
+ }
+
+
+ .carousel-item img{
+   width: 100%;
+   height: 500px;
+   border-radius: 3px;
+ }
+
+ .header-body p{
+  color: #fff;
+ }
+
+ .shadoww{
+  box-shadow: 5px 5px 5px #1111;
+ }
+.nws{
+  color: rgb(253, 145, 5);
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+   border: 1px solid black;
+   padding: 3px;
+   display: flex;
+   margin-top: -20px;
+
+}
+.nws:hover{
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background-color: rgb(253, 145, 5);
+  border: 1px solid #fff;
+
+}
+.videoss{
+  background-color: rgb(2, 2, 62);
+
+}
+
+.programmes .icone{
+  font-size: 100px;
+  color: rgb(2, 2, 62);
+}
+
+.programmes  p{
+  color: rgb(253, 145, 5);
+}
+
+.footerr{
+  background-color: rgb(2, 2, 62);
+  color: #fff;
+}
+.footerr h3{
+  font-size: 20px;
+ color:  rgba(249, 238, 238, 0.574);
+  font-weight: 800;
+}
+
+
+
+.admino a{
+  color: rgb(253, 145, 5);
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+   border: 1px solid #fff;
+   padding: 10px 40px;
+   
+
+}
+.adminn a:hover{
+
+  transition: 0.7s;
+  background-color: rgb(253, 145, 5);
+  border: 1px solid #fff;
+  color: rgb(2, 2, 62);
+
+}
+
+.telec , .pc{
+  font-size: 14px;
+  font-weight: 600;
+}
+.copyrighth .icones i{
+ font-size:20px ;
+ color: rgba(249, 238, 238, 0.574);
+ cursor: pointer;
+}
+.copyrighth p{
+  font-style: italic;
+  font-weight: 300;
+  color:#fff;
+}
+.copyrighth .icones i:hover{
+  color:rgb(198, 187, 187);
+
+}
+.copyrighth{
+  background-color: rgb(2, 2, 62);
+  border-top: 1px solid #fff;
+  height: auto;
+}
+.addr, .dan{
+  color: rgb(253, 145, 5);
+  font-weight: 300;
+}
+
+.vegovego{
+  background-color: rgb(2, 2, 62);
+}
+
+.ciroy{
+  color: rgb(253, 145, 5);
+  font-weight: 300;
+
+}
+
+nav.stiky{
+  background: #fff;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+
+}
+nav.stiky h2{
+  color: rgb(2, 2, 62);
+}
+
+nav.stiky ul li a{
+ color: rgb(2, 2, 62);
+}
+
+nav.stiky ul li a:hover{
+  color: rgb(253, 145, 5);
+}
+
+nav.stiky button{
+  border: 2px solid rgb(2, 2, 62);
+}
+
+nav .toggle-btn{
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+nav.stiky .toggle-btn {
+  color: rgb(2, 2, 62);
+}
+
+
+
+
+
+
+.drop{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 90px;
+  height: 0;
+  width: 300px;
+  background: rgba(225, 255, 225, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.drop li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .4s;
+
+}
+.drop li a:hover{
+  letter-spacing: 2px;
+}
+
+
+.drop li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buton-admin{
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 30px;
+  transition: .4s;
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(253, 145, 5);
+
+}
+
+
+
+.drop.ouvert{
+  height: 310px;
+}
+
+@media(max-width:1180px){
+  .navbar, .btn-admis{
+    display: none;
+  }
+
+  nav .toggle-btn{
+    display: block;
+  }
+
+  .drop{
+    display: block;
+  }
+  
+
+}
+
+@media(max-width:576px){
+  .drop{
+    left: 2rem;
+    width: unset;
+  }
+}
+
+
+.header-contenu{
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 400px;
+  color: #fff;
+
+}
+.header-contenu h3{
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px;
+}
+
+.header-contenu span{
+  color: rgb(253, 145, 5);
+}
+.header-contenu h5{
+  text-transform: uppercase;
+ font-weight: 200;
+ 
+  
+}
+.header-contenu .guill{
+  color: rgb(253, 145, 5);
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 1px 2px 0px #fff;
+
+}
+.header-contenu p{
+  font-size: 20px;
+}
+
+.header-contenu .btnnnn a{
+  border: 2px solid #fff;
+  background: transparent;
+  color: rgb(253, 145, 5);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 30px;
+  transition: .4s;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.header-contenu .btnnnn a:hover{
+  transition: 0.7s;
+  background-color: rgb(253, 145, 5);
+  border: 1px solid #fff;
+  color: rgb(2, 2, 62);
+  letter-spacing: 1px;
+
+}
+
+@media(max-width:992px){
+  .header-contenu p{
+    display: none;
+  } 
+}
+
+@media(max-width:992px)
+ 
+
+ 
